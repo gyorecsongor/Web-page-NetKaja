@@ -1,0 +1,5 @@
+a:5:{s:14:"felhasznalonev";s:5:"gyore";s:6:"jelszo";s:8:"gyore123";s:7:"eletkor";s:2:"20";s:3:"nem";s:1:"F";s:11:"tulajdonsag";N;}
+a:5:{s:14:"felhasznalonev";s:8:"gyore123";s:6:"jelszo";s:8:"gyore123";s:7:"eletkor";s:2:"20";s:3:"nem";s:1:"F";s:11:"tulajdonsag";N;}
+a:5:{s:14:"felhasznalonev";s:6:"valami";s:6:"jelszo";s:9:"valami123";s:7:"eletkor";s:5:"99999";s:3:"nem";s:1:"F";s:11:"tulajdonsag";N;}
+a:5:{s:14:"felhasznalonev";s:6:"valaki";s:6:"jelszo";s:9:"valaki123";s:7:"eletkor";s:2:"20";s:3:"nem";s:1:"F";s:11:"tulajdonsag";N;}
+a:5:{s:14:"felhasznalonev";s:4:"tini";s:6:"jelszo";s:11:"Albertina19";s:7:"eletkor";s:2:"29";s:3:"nem";s:1:"N";s:11:"tulajdonsag";N;}

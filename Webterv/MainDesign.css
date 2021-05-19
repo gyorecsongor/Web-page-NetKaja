@@ -1,0 +1,169 @@
+body{
+    background: crimson;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: "Brush Script MT";
+    line-height: 5px;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Brush Script MT";
+    line-height: 5px;
+}
+
+div{
+    width: 45%;
+}
+
+.pizza{
+    background: aqua;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px 10px;
+    position: static; top: 50%;
+    animation: btoy 4s linear infinite;
+}
+
+.sultetel{
+    background: aqua;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px 10px;
+    position: absolute; top: 16.5%; right: 0;
+    animation: btoy 4s linear infinite;
+}
+
+.fottetel{
+    background: aqua;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px 10px;
+    animation: btoy 4s linear infinite;
+}
+
+.desszert{
+    background: aqua;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px 10px;
+    position: absolute; top: 62.5%; right: 0;
+    animation: btoy 4s linear infinite;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.floating-img{
+    float: left;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    line-height: 2px;
+    font-family: "Calibri";
+    background: aqua;
+    height: 300px;
+    position: static; bottom: 0; left: 0;
+    animation: btoy 4s linear infinite;
+    margin: 5px;
+    padding: 15px;
+}
+
+.pizza_szoveg{
+    position: absolute; top:220px ; left: 300px;
+}
+
+.sult_szoveg{
+    position: absolute; top:80px ; left: 270px;
+}
+
+.fott_szoveg{
+    position: absolute; top:545px ; left: 300px;
+}
+
+.desszert_szoveg{
+    position: absolute; top:80px ; left: 270px;
+}
+
+li{
+    font-family: "Brush Script MT";
+    font-size: x-large;
+}
+
+fieldset{
+    position: absolute; top: 1%; right: 5%;
+    background: aqua;
+    font-size: large;
+    font-family: Calibri;
+    animation: btoy 4s linear infinite;
+}
+
+nav{
+    position: fixed;top: 0; left: 0;
+    background: aqua;
+    width: 35%;
+    height: 10%;
+    z-index: 100;
+    animation: btoy 4s linear infinite;
+}
+
+nav a{
+    color: black;
+    padding: 20px;
+    float: left;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: Calibri;
+    animation: btoy 4s linear infinite;
+}
+
+q{
+    font-size: large;
+    font-weight: bold;
+}
+
+.kijeloles::first-letter{
+    font-size: x-large;
+}
+
+#aktiv{
+    color: deeppink;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+@keyframes btoy {
+    from{background: aqua}
+    to{background: greenyellow}
+}
+
+@media print {
+    video, audio{display: none}
+    body{color: black; background: white; font-family: Calibri}
+}
+
+@page  {
+    margin: 5pt;
+}
+
+@media screen and (min-width: 800px) and (orientation: portrait){
+    body{
+        font-size: 15px;
+        margin: auto;
+    }
+}

@@ -1,0 +1,185 @@
+body{
+    background: crimson;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: "Brush Script MT";
+    line-height: 5px;
+    text-shadow: 0 0 1px black, 2px 2px 1px black;
+}
+
+div{
+    width: 45%;
+    background: aqua;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+    border: 5px solid darkmagenta;
+    border-radius: 20px 0;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.floatimg{
+    float: left;
+    margin-right: 70px;
+}
+
+.div1{
+    position: absolute; top: 19%; left: 30%;
+    animation: btoy 4s linear infinite;
+}
+
+.div2{
+    position: absolute; top: 60%; left: 30%;
+    animation: btoy 4s linear infinite;
+}
+
+.div3{
+    position: absolute; top: 101%; left: 30%;
+    animation: btoy 4s linear infinite;
+}
+
+.div4{
+    position: absolute; top: 141%; left: 30%;
+    animation: btoy 4s linear infinite;
+}
+
+.div5{
+    position: absolute; top: 182%; left: 30%;
+    animation: btoy 4s linear infinite;
+}
+
+.div6{
+    position: absolute; top: 223%; left: 30%;
+    animation: btoy 4s linear infinite;
+}
+
+.div7{
+    position: absolute; top: 264%; left: 30%;
+    animation: btoy 4s linear infinite;
+}
+
+.asiderendeles{
+    width: 28%;
+    background: greenyellow;
+    position: fixed; top: 20%; left: 1%;
+    font-size: large;
+    font-family: Calibri;
+    font-weight: bold;
+    z-index: 100;
+    animation: ytob 4s linear infinite;
+}
+
+.asideszorakozas{
+    width: 23%;
+    background: greenyellow;
+    position: fixed; top: 20%; right: 1%;
+    font-size: 25px;
+    font-family: "Brush Script MT";
+    font-weight: bold;
+    z-index: 100;
+    animation: ytob 4s linear infinite;
+}
+
+nav{
+    position: absolute;top: 0; left: 0;
+    background: aqua;
+    width: 35%;
+    height: 10%;
+    z-index: 100;
+    animation: btoy 4s linear infinite;
+}
+
+nav a{
+    color: black;
+    padding: 20px;
+    float: left;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    font-family: Calibri;
+    animation: btoy 4s linear infinite;
+}
+
+.kijeloles::first-letter{
+    font-size: x-large;
+}
+
+#aktiv{
+    color: deeppink;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+@keyframes ytob {
+    from{background: greenyellow}
+    to{background: aqua}
+}
+
+@keyframes btoy {
+    from{background: aqua}
+    to{background: greenyellow}
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+}
+
+th{
+    background: lightgreen;
+    color: crimson;
+}
+
+tr:nth-of-type(even){
+    background: chocolate;
+}
+
+tr:hover{
+    background: deeppink;
+}
+
+.logo1{
+    width: 28%;
+    position: absolute; top: 150%; left: 1%;
+}
+
+.logo2{
+    width: 23%;
+    position: absolute; top: 150%; right: 1%;
+}
+
+@media print {
+    video, audio{display: none}
+    body{color: black; background: white; font-family: Calibri}
+    table{break-inside: avoid}
+}
+
+@page  {
+    margin: 5pt;
+}
+
+@media screen and (min-width: 800px) and (orientation: portrait){
+    body{
+        font-size: 15px;
+        margin: auto;
+    }
+}
